@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to send data from an HTML form to email</title>
+
+    <!-- custom css style link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font link  -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<!-- contacts section start  -->
+
+<section class="contacts">
+
+    <h2 class="heading"><span>Відправити </span> замовлення</h2>
+
+    <div class="row">
+
+        <div class="img">
+            <img src="https://i.ibb.co/pQQ5rKf/0-02-05-e44e18ad92f122c49fb99b9c7531156b051953502d672ca5210b72dc8251d9a8-1ee2144d834d8e13-2.png">
+        </div>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+         <input type="hidden" name="access_key" value="59d0ac36-e908-4ca5-9cc7-1c96ab2d2535">
+          
+                          
+                         <span>Ваше П.І.Б</span>
+                         <input type="text"  name="name" id="" class="box" required 
+                         placeholder="Ведіть ваше ім'я" autocomplete="off">
+            
+                         <span>Ваш номер телефону</span>
+                         <input type="text"  name="number" id="" class="box" required 
+                         placeholder="Ведіть Ваш номер телефону" autocomplete="off">
+            
+                         <span>Ваше місто</span>
+                         <input type="city"  name="city" id="" class="box" required 
+                         placeholder="Ведіть ваше місто" autocomplete="off">
+            
+                         <span>Пункт видачі Нова пошта</span>
+                         <input type="Delivery point Nova Poshta"  name="Delivery point Nova Poshta"id="" class="box" required 
+                         
+                          placeholder="Ведіть ваш Пункт видачі Нова пошта" autocomplete="off">
+                         
+                          <span>Ваше замовлення</span>
+                         <input type="city"  name="city" id="" class="box" required 
+                         placeholder="Ведіть ваше замовлення" autocomplete="off">
+            
+                         <span>Виберіть спосіб оплати</span>
+                         <select name="point" id="" class="box"required>
+                           <option value=""  disabled  selected></option>
+                           <option value=" subscription">Передплата</option>
+                          <option value="postpaid">Післяплата</option>
+                         </select>
+                  
+                          </div>
+            
+            
+                          <input type="submit" value="Send data" class="btn" 
+                          name="send" >
+                        </form>
+            
+                           
+            
+            
+            
+                       </section>
+            
+            
+            
+                        
+            
+            
+                    </body>
+            </html>
+
+            
+
+     
+
+
+
+
+
+<!-- contacts section end  -->
